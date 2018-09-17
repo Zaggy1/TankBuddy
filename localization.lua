@@ -133,6 +133,7 @@ elseif (GetLocale() == "deDE") then -- German
 	TB_tauntLine = "Ihr habt es mit Spott versucht, aber (.+) hat widerstanden.";
 	TB_growlLine = "Ihr habt es mit Knurren versucht, aber (.+) hat widerstanden."; 
 	TB_mbHitLine = "Sp\195\182ttischer Schlag von Euch trifft (.+) f\195\188r (.+)"
+	TB_mbCrit = "Sp\195\182ttischer Schlag trifft (.+) kritisch: (.+)"
 	TB_mb = "(.*)Sp\195\182ttischer Schlag(.*)";
 	TB_ls = "Ihr bekommt 'Letztes Gefecht'."; 
 	TB_sw = "Ihr bekommt 'Schildwall'."; 
