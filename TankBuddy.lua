@@ -159,8 +159,8 @@ function TB_OnEvent(event)
 			if (string.find(arg1, TB_tauntLine)) then 									-- Checks if your taunt was resisted
 				TBAbility = TB_GUI_Taunt;
 			elseif (string.find(arg1, TB_mb)) then			-- Checks if the string has the words "Mocking Blow"
-				local mbHit = string.find(arg1, TB_mbHitLine);					-- Checks if your mocking blow was hit
-				if (not mbHit) then			-- If your mocking blow didnt hit, then do ..
+				if not (string.find(arg1, TB_mbHitLine)					-- Checks if your mocking blow was hit
+				or string.find(arg1, TB_mbCrit)) then			-- If your mocking blow didnt hit, then do ..
 					TBAbility = TB_GUI_MB;
 				end
 			end
