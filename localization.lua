@@ -58,6 +58,7 @@ TB_defaultText_lg = "- I activated Lifegiving Gem! In 20 seconds I will lose $hp
 TB_tauntLine = "Your Taunt was resisted by (%w+)";
 TB_growlLine = "Your Growl was resisted by (%w+)";
 TB_mbHitLine = "Your Mocking Blow (.+) for (.+)";
+TB_mbCrit = "Your Mocking Blow crits (.+) for (.+)";
 TB_mb = "(.*)Mocking Blow(.*)";
 TB_ls = "You gain Last Stand.";
 TB_sw = "You gain Shield Wall.";
